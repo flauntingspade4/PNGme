@@ -1,7 +1,7 @@
 #![allow(non_snake_case)]
-mod chunk;
-mod chunk_type;
-mod png;
+pub mod chunk;
+pub mod chunk_type;
+pub mod png;
 
 #[derive(Debug)]
 pub enum Error {
